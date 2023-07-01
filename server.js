@@ -19,11 +19,11 @@ process.env.NODE_TLS_REJECT_UNAUTHORIZED = 0;
 const db = knex({
   client: "pg",
   connection: {
-    host: "dpg-cgpb9l8rddl9mmufee40-a",
+    host: "dpg-cig55l5gkuvojjfkvq5g-a",
     port: 5432,
     user: "facebrain_user",
     password: process.env.DB_PASS,
-    database: "facebrain_o3dv",
+    database: "facebrain_o3dv_fqup",
     ssl: true,
   },
 });
